@@ -22,28 +22,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Large Text"
-            android:id="@+id/textView2" />
+            android:text="@string/title_label"
+            android:id="@+id/title_label" />
 
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/spinner" />
+            android:id="@+id/liquor_select" />
 
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/spinner2" />
+            android:id="@+id/mixer_one_select" />
 
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/spinner3" />
+            android:id="@+id/mixer_two_select" />
 
-        <Spinner
-            android:layout_width="match_parent"
+
+        <CheckBox
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/spinner4" />
+            android:text="@string/ice_check"
+            android:id="@+id/ice_check" />
 
         <EditText
             android:layout_width="match_parent"
